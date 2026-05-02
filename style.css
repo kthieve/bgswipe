@@ -1,0 +1,13 @@
+#bg-swipe-settings {
+  padding: 10px;
+  border-top: 1px solid var(--border-color);
+}
+
+#bg-swipe-settings label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#bg-swipe-btn {
+  margin-left: 6px;
+}
