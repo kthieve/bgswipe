@@ -1,8 +1,10 @@
 {
-  "name": "Background Swipe Generator",
-  "version": "1.0.0",
-  "description": "Generate next swipe in background without interrupting reading",
+  "name": "background-swipe-generator",
+  "title": "Background Swipe Generator",
+  "version": "1.2.0",
+  "description": "Generate assistant swipes in the background while reading the current one. Adds a BG Swipe button, queueing, auto-generation, and notifications.",
   "author": "You",
   "entry": "index.js",
+  "style": "style.css",
   "minimumVersion": "1.17.0"
 }
