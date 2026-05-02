@@ -25,3 +25,4 @@ An extension for **SillyTavern** that allows users to generate assistant swipes 
 *   **Event Driven:** Uses `eventSource` to listen for `CHAT_CHANGED`, `MESSAGE_RENDERED`, and `GENERATION_STOPPED`.
 *   **UI Injection:** Targets `#chat_controls` and `#extensions_settings` for DOM manipulation.
 *   **Settings Persistence:** Uses `loadSettings` and `saveSettingsDebounced` for persistent configuration.
+*   **Workflow:** Always commit and push changes after implementation and verification.
