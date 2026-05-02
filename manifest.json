@@ -1,10 +1,23 @@
 {
-  "name": "background-swipe-generator",
-  "title": "Background Swipe Generator",
-  "version": "1.2.0",
-  "description": "Generate assistant swipes in the background while reading the current one. Adds a BG Swipe button, queueing, auto-generation, and notifications.",
-  "author": "You",
-  "entry": "index.js",
-  "style": "style.css",
-  "minimumVersion": "1.17.0"
+  "manifest_version": 3,
+  "name": "Background Swipe",
+  "version": "1.0",
+  "description": "A simple extension to change the background color of a page.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
 }
