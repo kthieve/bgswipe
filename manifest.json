@@ -1,0 +1,8 @@
+{
+  "name": "Background Swipe Generator",
+  "version": "1.0.0",
+  "description": "Generate next swipe in background without interrupting reading",
+  "author": "You",
+  "entry": "index.js",
+  "minimumVersion": "1.17.0"
+}
